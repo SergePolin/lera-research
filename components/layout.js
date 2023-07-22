@@ -70,6 +70,7 @@ function Layout({ children }) {
                         </div>
                     </div>
                 </div>
+
             </main>
             <footer className="footer footer-center p-10 text-primary-content bg-neutral">
                 <div>
