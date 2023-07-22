@@ -24,7 +24,7 @@ function Layout({ children }) {
                 </div>
                 <div className="mb-5 mx-5 flex justify-center p-3 bg-white">
                     <div>
-                        <Image src={"/man.jpg"} width={207} height={111} />
+                        <Image src={"/woman.jpg"} width={207} height={111} />
                     </div>
                 </div>
 
@@ -66,7 +66,7 @@ function Layout({ children }) {
                     </div>
                     <div className="flex justify-center bg-white p-5">
                         <div>
-                            <Image src={"/man2.jpg"} width={207} height={110} />
+                            <Image src={"/woman2.jpg"} width={207} height={110} />
                         </div>
                     </div>
                 </div>
