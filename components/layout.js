@@ -78,15 +78,6 @@ function Layout({ children }) {
                     <p className="font-bold">
                         контакты: (89152328998)
                     </p>
-                    {
-                        pathname && pathname === "/story" && <>
-                            <p className="font-bold">
-                                <Link href={"https://docs.google.com/forms/d/e/1FAIpQLSeiTojJyR3jHJQO6-f_GbfB25wBY2OACw73BzWZFa4vnPq0fg/viewform?pli=1"}>
-                                    <div className="underline"> хочешь стать волонтером - пиши нам </div>
-                                </Link>
-                            </p>
-                        </>
-                    }
                     <p className="font-bold">
                         Лаборатория когнитивной психологии <br /> пользователя цифровых интерфейсов
                     </p>
