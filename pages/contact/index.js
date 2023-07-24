@@ -1,3 +1,4 @@
+import Link from 'next/link'
 function Contact() {
     return (
         <>
@@ -11,6 +12,11 @@ function Contact() {
                     <li><p><strong>Tizzi</strong> — проект, включающий секс-шоп и платформу сексуального просвещения.</p>
                     </li>
                 </ol>
+                <p className="font-bold">
+                    <Link href={"https://docs.google.com/forms/d/e/1FAIpQLSeiTojJyR3jHJQO6-f_GbfB25wBY2OACw73BzWZFa4vnPq0fg/viewform?pli=1"}>
+                        <div className="underline">Хочешь стать волонтером - нажимай сюда.</div>
+                    </Link>
+                </p>
             </div>
         </>
     )
